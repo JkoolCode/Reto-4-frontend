@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Reto Final Junior Oblitas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <!--Importando JQuery antes de poner Materialize-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <!--importar iconos -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="shortcut icon" href="img/favicon.ico">
+	<!--Importa materialize.min.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="css/style.css"/>  
+    </head>
+    <body>
+
+        <header id="menu">
+             <!-- Menu -->
+             <nav class="top-nav blue">
+                 <div class="container">
+                        <div id="tituloP" class="nav-wrapper brand-logo center"><a class="page-title">Tecnología</a></div>
+                        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+                 </div>
+             </nav>
+                <ul id="nav-mobile" class="side-nav fixed">
+                    <li class="logo" id="limpio">
+                        <div id="milogo">
+                            <a class="teal-text" href="#">Jkool<i class="material-icons">code</i><i class="material-icons">android</i><i class="material-icons">code</i>Code</a>
+                        </div>
+                    </li>
+                  <li class="search">
+                     <div id="cuadrob" class="search-wrapper card">
+                        <input id="search"><i class="material-icons ajuste">search</i>  
+                     </div>
+                  </li>  
+                  <li class="bold"><a href="#" class="waves-effect waves-teal">Introducción</a></li>
+                  <li class="no-padding">
+                    <ul class="collapsible collapsible-accordion">
+                      <li class="bold"><a class="collapsible-header waves-effect waves-teal">Programación</a>
+                        <div class="collapsible-body">
+                          <ul>
+                            <li><a href="#">Java</a></li>
+                            <li><a href="#">C++</a></li>
+                            <li><a href="#">Android</a></li>
+                            <li><a href="#">Prolog</a></li>
+                            <li><a href="#">ASM</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="bold"><a href="#" class="waves-effect waves-teal">Arduino</a></li>
+                  <li class="bold"><a href="#" class="waves-effect waves-teal">Gadgets</a></li>
+                  <li><!-- Boton Modal -->
+                    <a href="#modal1" class="waves-effect blue darken-1 btn white-text modal-trigger">Suscribete</a>
+                  </li>
+                </ul>
+        </header>
+        
+         <!-- Contenido Modal -->
+        <div id="modal1" class="modal modal-fixed-footer black-text">
+            <div class="modal-content">
+              <h4>Formulario de Suscripción</h4>
+              <div class="row">
+                <form class="col s12 container">
+                  <div class="row">
+                    <div class="input-field col s6">
+                      <input id="nombres" type="text" class="validate">
+                      <label for="nombres">Nombres</label>
+                    </div>
+                    <div class="input-field col s6">
+                      <input id="last_name" type="text" class="validate">
+                      <label for="apellidos">Apellidos</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <input id="correo" type="email" class="validate">
+                      <label for="correo">Correo Electrónico</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <input id="telefono" type="tel" class="validate">
+                      <label for="telefono">Teléfono</label>
+                    </div>  
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">CANCELAR</a>
+              <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">ENVIAR</a>
+            </div>
+        </div>
+        <!-- Fin Contenido Modal -->
+        
+        <main>        
+            <div id="contenido">  
+                <article class="container">
+                    <header class="center">
+                        <h3>Inteligencia Artificial</h3>
+                        <time id="fecha1"  datetime="2016-01-27">27 de Enero del 2016</time>
+                    </header>
+                        <p align="justify">La inteligencia artificial es considerada una rama de la computación y relaciona un fenómeno natural con una analogía artificial a través de programas de computador. La inteligencia artificial puede ser tomada como ciencia si se enfoca hacia la elaboración de programas basados en comparaciones con la eficiencia del hombre, contribuyendo a un mayor entendimiento del conocimiento humano.<br><br>
+                        Si por otro lado es tomada como ingeniería, basada en una relación deseable de entrada-salida para sintetizar un programa de computador. "El resultado es un programa de alta eficiencia que funciona como una poderosa herramienta para quien la utiliza."<br><br>
+                        A través de la inteligencia artificial se han desarrollado los sistemas expertos que pueden imitar la capacidad mental del hombre y relacionan reglas de sintaxis del lenguaje hablado y escrito sobre la base de la experiencia, para luego hacer juicios acerca de un problema, cuya solución se logra con mejores juicios y más rápidamente que el ser humano. En la medicina tiene gran utilidad al acertar el 85 % de los casos de diagnóstico.</p>
+                        <footer class="right">
+                            <div class="chip">
+                                <a target="_blank" href="http://bvs.sld.cu/revistas/san/vol2_2_98/san15298.htm">Más información</a><i class="material-icons">settings_ethernet</i>
+                          </div>
+                        </footer><br><br><hr/>                   
+                    <article>
+                         <blockquote>
+                             <b>COMENTARIOS</b>
+                         </blockquote>
+                    </article>
+                    <article>
+                      <ul class="collection">
+                         <li class="collection-item avatar">
+                         <img src="img/xvr.png" alt="" class="circle">
+                         <span class="title">CJOV</span>
+                         <p>Me parece una definición apropiada, la inteligencia artificial ya existe en nuestros días y su crecimiento exponencial a futuro será muy beneficioso para la humanidad.</p>
+                         <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                         <em><time id="fecha2" datetime="2016-01-27 13:08">27 de Enero del 2016, Hora: 13:08</time></em>
+                         </li>
+                         <li class="collection-item avatar">
+                             <img src="img/cool-android5.png" alt="" class="circle">
+                         <span class="title">DROID</span>
+                         <p>Me parece una definición apropiada, la inteligencia artificial ya existe en nuestros días y su crecimiento exponencial a futuro será muy beneficioso para la humanidad.</p>
+                         <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                         <em><time id="fecha2" datetime="2016-01-27 23:21">27 de Enero del 2016, Hora: 23:21</time></em>
+                         </li>
+                      </ul>
+                    </article><br>
+                       
+                     <div class="row">
+                        <form class="col s12">
+                          <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">mode_edit</i>
+                              <textarea id="textarea1" class="materialize-textarea"></textarea>
+                              <label for="textarea1">Ingrese su comentario</label>
+                              <button class="btn black waves-effect waves-light right" type="submit">Comentar
+                                <i class="material-icons right">send</i>
+                              </button>
+                            </div>
+                          </div> 
+                        </form>
+                     </div>
+                </article>
+                
+                <article class="container">
+                    <header class="center">
+                        <h3>Android Studio</h3>
+                        <time datetime="2016-01-28">28 de Enero del 2016</time>
+                    </header>
+                        <p align="justify">Android Studio llegó de la mano de Gradle como nueva herramienta para la construcción y empaquetado de proyectos Android.<br><br>
+                        Esta potente utilidad, muchas veces ignorada, puede aportar mucho poder y comodidad a la hora de desarrollar un proyecto complejo: diferentes módulos, variantes, muchas dependencias, sistemas de integración continua, calidad de código, etc.<br><br>
+                        La motivación de este artículo no es más que compartir sencillas metodologías que he aplicado alguna vez en determinadas circunstancias, por lo que si consigo ayudar lo más mínimo a alguien, habré cumplido mi objetivo!</p>
+                        <footer class="right">
+                            <div class="chip">
+                                <a target="_blank" href="http://androcode.es/"> Más información</a><i class="material-icons">android</i>
+                          </div>
+                        </footer><br><br><hr/>                   
+                    <article>
+                         <blockquote>
+                             <b>COMENTARIOS</b>
+                         </blockquote>
+                    </article>
+                    <article>
+                      <ul class="collection">
+                         <li class="collection-item avatar">
+                         <img src="img/xvr.png" alt="" class="circle">
+                         <span class="title">CJOV</span>
+                         <p>Android Studio me parece un buen entorno de trabajo para desarrollar aplicaciones mobiles, su estructura y la forma en que estan organizadas los componentes son muy buenos.</p>
+                         <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                         <em><time id="fecha2" datetime="2016-01-28 13:08">28 de Enero del 2016, Hora: 13:08</time></em>
+                         </li>
+                         <li class="collection-item avatar">
+                             <img src="img/cool-android5.png" alt="" class="circle">
+                         <span class="title">DROID</span>
+                         <p>Android Studio me parece un buen entorno de trabajo para desarrollar aplicaciones mobiles, su estructura y la forma en que estan organizadas los componentes son muy buenos.</p>
+                         <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                         <em><time id="fecha2" datetime="2016-01-28 23:21">28 de Enero del 2016, Hora: 23:21</time></em>
+                         </li>
+                      </ul>
+                    </article><br>
+                       
+                     <div class="row">
+                        <form class="col s12">
+                          <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">mode_edit</i>
+                              <textarea id="textarea1" class="materialize-textarea"></textarea>
+                              <label for="textarea1">Ingrese su comentario</label>
+                              <button class="btn black waves-effect waves-light right" type="submit">Comentar
+                                <i class="material-icons right">send</i>
+                              </button>
+                            </div>
+                          </div>
+                               
+                        </form>
+                     </div>
+                </article>
+                <!-- FIN Articulos -->
+                
+                    <!-- Items flotantes -->
+                    <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+                        <a class="btn-floating btn-large red">
+                          <i class="material-icons">mode_edit</i>
+                        </a>
+                        <ul>
+                          <li><a class="btn-floating red" ><i class="material-icons">code</i></a></li>
+                          <li><a class="btn-floating lime darken-1" ><i class="material-icons">android</i></a></li>
+                          <li><a class="btn-floating green" ><i class="material-icons">publish</i></a></li>
+                          <li><a class="btn-floating blue" ><i class="material-icons">attach_file</i></a></li>
+                        </ul>
+                    </div>
+                    <!-- FIN Items flotantes -->      
+              </div>
+        </main>
+    
+      <!-- FOOOTER -->
+      <footer class="page-footer blue">
+                        <div id="pie" class="container">
+                          <div class="row">
+                           <div id="piecontent" class="col l6 m6 s12">
+                              <h5 class="white-text">Acerca del Blog</h5>
+                              <p class="grey-text text-lighten-4">
+                                  Este Blog fue desarrollado por: Junior Oblitas<br>
+                                  Para el Reto Final Frontend del Core Upgrade 2016<br><br>
+                                  Hackspace Perú
+                              </p>
+                            </div>
+                            <div class="col l4 m6 s12" style="float: right;">
+                              <h5 class="white-text">Referencias</h5>
+                              <ul>
+                                  <li><i class="material-icons">code</i><a class="grey-text text-lighten-3" href="#!"> Core Upgrade 2016</a></li>
+                                <li><i class="material-icons">code</i><a class="grey-text text-lighten-3" href="#!"> Hackspace Perú</a></li>
+                                <li><i class="material-icons">code</i><a class="grey-text text-lighten-3" href="#!"> Reto Final Frontend</a></li>
+                                <li><i class="material-icons">code</i><a class="grey-text text-lighten-3" href="#!"> Materialize</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div id="subpie" class="footer-copyright">
+                          <div class="container">
+                          &copy; Todos los derechos reservados 2016
+                          <a class="grey-text text-lighten-4 right" href="#!">Jkool</a>
+                          </div>
+                        </div>
+                  </footer>
+                    <!-- FIN FOOOTER -->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>    
+    <script src="js/init.js"></script>
+    </body>
+</html>
+

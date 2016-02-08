@@ -1,0 +1,20 @@
+.bold{
+    font-weight: bold;
+}
+
+#limpio{
+    background-color: white;
+}
+
+#milogo{
+    padding-left: 8%;
+    margin-top: 10%;
+}
+
+#cuadrob{height: 49px;}
+
+#search{height: 30px;}
+
+.ajuste{
+    position: absolute; right: 5%; top: 30%; cursor: pointer;
+}
